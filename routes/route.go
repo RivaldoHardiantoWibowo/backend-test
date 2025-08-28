@@ -30,11 +30,13 @@ func ListUser(db *gorm.DB) http.HandlerFunc {
 
 		query := db.Table("users").
 			Select("users.id, users.username, COALESCE(balances.amount, 0) as amount").
-			Joins("LEFT JOIN balances ON users.id = balances.user_id")
+			Joins("LEFT JOIN balances ON users.id = balances.user_id").
+			Where("users.deleted_at IS NULL")
 
-		if sortOrder == "asc" {
+		switch sortOrder {
+		case "asc":
 			query = query.Order("balances.amount ASC")
-		} else if sortOrder == "desc" {
+		case "desc":
 			query = query.Order("balances.amount DESC")
 		}
 
