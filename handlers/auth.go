@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Shercosta/digi-wallet/models"
-	"github.com/Shercosta/digi-wallet/response"
+	"github.com/RivaldoHardiantoWibowo/backend-test/models"
+	"github.com/RivaldoHardiantoWibowo/backend-test/response"
 	"github.com/golang-jwt/jwt/v5"
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"

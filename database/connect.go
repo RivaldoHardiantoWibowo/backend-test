@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Shercosta/digi-wallet/database/migrations"
+	"github.com/RivaldoHardiantoWibowo/backend-test/database/migrations"
 	"github.com/go-gormigrate/gormigrate/v2"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"

@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/Shercosta/digi-wallet/database"
-	"github.com/Shercosta/digi-wallet/handlers"
-	"github.com/Shercosta/digi-wallet/middleware"
-	"github.com/Shercosta/digi-wallet/response"
-	"github.com/Shercosta/digi-wallet/routes"
+	"github.com/RivaldoHardiantoWibowo/backend-test/database"
+	"github.com/RivaldoHardiantoWibowo/backend-test/handlers"
+	"github.com/RivaldoHardiantoWibowo/backend-test/middleware"
+	"github.com/RivaldoHardiantoWibowo/backend-test/response"
+	"github.com/RivaldoHardiantoWibowo/backend-test/routes"
 	"github.com/go-chi/chi/v5"
 )
 

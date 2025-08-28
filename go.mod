@@ -1,4 +1,4 @@
-module github.com/Shercosta/digi-wallet
+module github.com/RivaldoHardiantoWibowo/backend-test
 
 go 1.23.0
 

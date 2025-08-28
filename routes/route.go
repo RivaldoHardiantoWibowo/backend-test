@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/Shercosta/digi-wallet/middleware"
-	"github.com/Shercosta/digi-wallet/models"
-	"github.com/Shercosta/digi-wallet/request"
-	"github.com/Shercosta/digi-wallet/response"
+	"github.com/RivaldoHardiantoWibowo/backend-test/middleware"
+	"github.com/RivaldoHardiantoWibowo/backend-test/models"
+	"github.com/RivaldoHardiantoWibowo/backend-test/request"
+	"github.com/RivaldoHardiantoWibowo/backend-test/response"
 	"github.com/go-chi/chi/v5"
 	"gorm.io/gorm"
 )
